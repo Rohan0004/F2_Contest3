@@ -1,0 +1,84 @@
+*{
+    background-color: #1d1d23;
+    color: white;
+}
+header,.set-time,.timers-header{
+    width: 60vw;
+    margin: 50px auto;
+    text-align: center;
+}
+header{
+    font-size: larger;
+}
+.set-time{
+    background-color: #34344a;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+}
+.set-time>input{
+    width: 50px;
+    display: inline-block;
+    padding: 5px 10px;
+    text-align: center;
+    color: white;
+    background-color: transparent;
+    outline: none;
+    font-size:larger;
+    font-weight: 600;
+}
+.set-time>button{
+    background-color: #f0f757;
+    color: black;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.timers-header{
+    background-color: #39393e;
+    width: fit-content;
+    padding: 10px 100px;
+    font-size: large;
+    border-radius: 20px;
+}
+
+#timers-container{
+    overflow-y: auto;
+    height: 350px;
+}
+.timer{
+    width: 35vw;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 30px;
+    background-color: #34344a;
+    font-size: larger;
+}
+.timer>span{
+    display: inline-block;
+    background-color: transparent;
+    font-size: larger;
+}
+.timer>button{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #f0f757;
+    color: black;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.timer-complete{
+    background-color: #f0f757;
+}
+.timer-complete>span{
+    color: black;
+}
+.timer-complete>button{
+    background-color: #34344a;
+    color: white;
+}
